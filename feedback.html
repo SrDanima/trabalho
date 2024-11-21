@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>feedback</title>
+  </head>
+<body>
+
+  <header>
+    <h1>Bar do Sérgio</h1>
+    <nav>
+        <a href="menu.html">Menu</a>
+        <a href="index.html">Cardápio</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="pedidos.html">Pedidos</a>
+        <a href="login.html">Login</a>
+        <a href="rastreio.html">Acompanhar Pedido</a>
+    </nav>
+</header>
+
+  <form action=“processa_dados.html” method=“GET”>
+    <p>
+      <fieldset>
+      <legend>deixe o seu feedback!</legend>
+      <label> Nome: </label>
+      <input type="text" name="nome" required>
+      <br>
+      <label> Sobrenome: </label>
+      <input type="text" name="sobrenome" required>
+      <br>
+      <label> Conseguimos atender suas necessidades?: </label><br>
+      <input type="radio" value="Sim" name="Conseguimos atender suas necessidades ?" required> Sim
+      <br>
+      <input type="radio" value="Não" name="Conseguimos atender suas necessidades ?" required> Não
+      <br>
+      <label>Qual nota você da para o nosso atendimento?<label><br>
+      <input type="radio" name="Qual nota você da para o nosso atendimento" value="1 a 2" required>1 a 2 <br>
+      <input type="radio" name="Qual nota você da para o nosso atendimento" value="3 a 4" required>3 a 4 <br>
+      <input type="radio" name="Qual nota você da para o nosso atendimento" value="5 a 6" required>5 a 6 <br>
+      <input type="radio" name="Qual nota você da para o nosso atendimento" value="7 a 8" required>7 a 8 <br>
+      <input type="radio" name="Qual nota você da para o nosso atendimento" value="9 a 10" required>9 a 10 <br>
+      <label>Voce recomendaria o nosso site para alguem?<label> <br>
+      <input type="radio" name="Voce recomendaria o nosso site para alguem?" value="Sim" required> Sim <br>
+      <input type="radio" name="Voce recomendaria o nosso site para alguem?" value="Não" required> Não <br>
+      <label>Como podemos melhorar?<label> <br>
+      <textarea name="Como podemos melhorar?" rows="4" cols="20">Deixe sua ideia aqui!</textarea> <br>
+        <br><button type="submit">Enviar</botton><br>
+    </p>
+        </fieldset>
+  </form>
+</body>
+</html>

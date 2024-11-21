@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <title>Pedidos</title>
+  </head>
+<body>
+
+  <header>
+    <h1>Bar do Sérgio</h1>
+    <nav>
+        <a href="menu.html">Menu</a>
+        <a href="index.html">Cardápio</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="pedidos.html">Pedidos</a>
+        <a href="login.html">Login</a>
+        <a href="rastreio.html">Acompanhar Pedido</a>
+    </nav>
+</header>
+
+  <form action=“processa_dados.html” method=“GET”>
+    <p>
+      <fieldset>
+      <legend>Faça seu pedido!</legend>
+      <label>Lanches<label><br>
+        <input type="checkbox" name="Lanches" value="Hamburguer" >Hamburguer <br>
+        <input type="checkbox" name="Lanches" value="Misto Quente" >Misto Quente <br>
+        <input type="checkbox" name="Lanches" value="Moda da Casa" >Moda da Casa <br>
+        <input type="checkbox" name="Lanches" value="x-burguer" >x-burguer <br>
+        <input type="checkbox" name="Lanches" value="x-bacon" >x-bacon <br>
+        <input type="checkbox" name="Lanches" value="x-egg" >x-egg <br>
+        <input type="checkbox" name="Lanches" value="x-Egg Bacon" >x-Egg Bacon <br>
+        <input type="checkbox" name="Lanches" value="x- Frango" >x- Frango <br>
+        <input type="checkbox" name="Lanches" value="x-Presunto" >x-Presunto <br>
+        <input type="checkbox" name="Lanches" value="x-Salada" >x-Salada <br>
+        <input type="checkbox" name="Lanches" value="x-Tudo" >x-Tudo <br>
+        
+        <br><label>Bebidas<label><br>
+          <input type="checkbox" name="Bebidas" value="Suco Polpa">Suco Polpa <br>
+          <input type="checkbox" name="Bebidas" value="Suco de Açaí">Suco de Açaí <br>
+        <input type="checkbox" name="Bebidas" value="Brahma Chopinho 300 ml">Brahma Chopinho 300 ml<br>
+          <input type="checkbox" name="Bebidas" value="Coca Cola 1,5 Litros">Coca Cola 1,5 Litros <br>
+          <input type="checkbox" name="Bebidas" value="Coca Cola 2 Litros">Coca Cola 2 Litros <br>
+          <input type="checkbox" name="Bebidas" value="Cola Cola 500 ml">Cola Cola 500 ml <br>
+          <input type="checkbox" name="Bebidas" value="Cola Cola Lata">Cola Cola Lata <br>
+          <input type="checkbox" name="Bebidas" value="Guaraná 1,5 Litros">Guaraná 1,5 Litros <br>
+          <input type="checkbox" name="Bebidas" value="Guaraná Antártica 2 Litros">Guaraná Antártica 2 Litros <br>
+          <input type="checkbox" name="Bebidas" value="Guaraná Antártica Lata">Guaraná Antártica Lata <br>
+          <input type="checkbox" name="Bebidas" value="Guaraná Antártica 600 ml">Guaraná Antártica 600 ml <br>
+         <br> <label> Bairro: </label>
+          <input type="text" name="Bairro" required>
+          <br>
+          <label> Rua e numero de reisdencia: </label>
+          <input type="text" name="Rua e numero de reisdencia" required>
+          <br>
+          <br><label> em que area você reside?: </label><br>
+          <input type="radio" value="Rural" name="Em que area você reside?" required> Rural
+          <br>
+          <input type="radio" value="Urbana" name="Em que area você reside?" required> Urbana
+          <br>
+
+       <br>   <label> Tipo de moradia: </label><br>
+          <input type="radio" value="Rural" name="Tipo de moradia" required> Apartamento
+          <br>
+          <input type="radio" value="Urbana" name="Tipo de moradia" required> Casa
+          <br>
+          
+     <br> <label>Alguma observação?<label> <br>
+      <textarea name="Alguma observação?" rows="4" cols="20">Obsevações aqui!</textarea> <br>
+        <br><button type="submit">Enviar</botton><br>
+    </p>
+        </fieldset>
+  </form>
+</body>
+</html>
